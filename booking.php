@@ -12,7 +12,13 @@
             <p class="package-detail">You are about to book the <strong><?= $package_name ?></strong> travel package for <strong>Rp<?= number_format($package_price) ?></strong> during the <strong><?= $season ?></strong> season.</p>
             <form action="confirm.php" method="POST">
                 <input type="hidden" name="package_name" value="<?= $package_name ?>">
-                <input type="hidden" name="package_price" value="<?= $package_price ?>">
+                <input type="hidden" name="package_price" value="<?= $package_price ?>">\
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
 </body>
 </html>
