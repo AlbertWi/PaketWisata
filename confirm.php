@@ -10,5 +10,16 @@
         <h1>Booking Confirmation</h1>
         <p>Thank you, <span class="highlight"><?= htmlspecialchars($name) ?></span>, for booking the <strong><?= htmlspecialchars($package_name) ?></strong> travel package.</p>
         <p>The booking details will be sent to your email: <strong><?= htmlspecialchars($email) ?></strong>.</p>
-</body>
-</html>l
+
+        <div class="confirmation-info">
+            <p>Total amount to be paid:</p>
+            <p class="price">Rp<?= number_format($package_price * $people_count) ?></p>
+        </div>
+
+        <footer>
+            <p>If you have any questions, please contact <a href="mailto:support@wisata.com">support@wisata.com</a></p>
+        </footer>
+    </div>
+
+    </body>
+</html>
