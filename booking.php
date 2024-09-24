@@ -29,5 +29,16 @@
                 <label for="people_count">Number of People:</label>
                 <input type="number" id="people_count" name="people_count" min="1" required>
 
+                <label for="notes">Additional Notes:</label>
+                <textarea id="notes" name="notes" placeholder="Write any special requests if needed"></textarea>
+
+                <button type="submit" class="btn">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
 </body>
 </html>
