@@ -22,5 +22,17 @@
                      <p>Duration: 5 days</p>
                      <a href="booking.php?id=1&season=Musim%20Semi" class="btn">Book Now</a>
             </div>
+
+    <div class="paket-item">
+                    <img src="https://cdn.idntimes.com/content-images/community/2021/04/img-20210429-070500-9f2690fd965b0b529c7039fa544e675e-7017fb9372d748f2d0543022e6ca3a9d.jpg" alt="Wisata Beijing - Musim Semi" class="paket-gambar" width="240px">
+                    <h3>Hangzhou Trip - Spring</h3>
+                    <p>Beautiful West Lake, surrounded by blooming flowers.</p>
+                    <p>Price: IDR 6,000,000</p>
+                    <p>Duration: 5 days</p>
+                    <a href="booking.php?id=2&season=Musim%20Semi" class="btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+
 </body>
 </html>
