@@ -20,5 +20,14 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
 
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="date">Departure Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="people_count">Number of People:</label>
+                <input type="number" id="people_count" name="people_count" min="1" required>
+
 </body>
 </html>
